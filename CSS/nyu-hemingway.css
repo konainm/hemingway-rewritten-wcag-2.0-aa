@@ -47,10 +47,10 @@ a {
     color: #0c715d;
 }
 a:visited {
-	color: blue;
+	color: #9658a5;
 }
 a:hover{
-	color: inherit;
+	color: blue;
 	text-decoration: underline;
 }
 a:focus, a:active {
@@ -65,7 +65,7 @@ a:focus, a:active {
 
 /*Widget area link color*/
 .widget a:hover {
-	color: inherit;
+	color: blue;
 }
 
 /*Menu Colors*/
@@ -110,6 +110,7 @@ blockquote {
 	color: #b9b9b9 !important;
 }
 
+/*Tag icons on posts*/
 .entry-tags a, .entry-tags a:focus, .entry-tags a:active{
 	color: white;
 }
