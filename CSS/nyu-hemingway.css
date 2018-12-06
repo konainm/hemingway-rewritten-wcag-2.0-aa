@@ -1,0 +1,120 @@
+/*Meta data below the title*/
+.entry-meta, .entry-meta a, .entry-meta a:visited {
+    color: #736f6f;
+}
+.entry-meta a:hover, .entry-meta a:focus, .entry-meta a:active
+{
+	color: #736f6f;
+	text-decoration: underline;
+}
+.sep {
+    color: #736f6f;
+}
+
+/*Post title link hover and visited color*/
+.entry-title a:visited, .entry-title a:hover, .entry-title a:active, .entry-title a:focus{
+	color: black;
+}
+
+/*Skip link background color*/
+.skip-link.screen-reader-text
+{
+	background-color: black;
+}
+
+/*Comment Box Meta data*/
+.comment-metadata a {
+    color: #736f6f;
+}
+
+/*Search button color*/
+.widget_search .search-submit {
+   background: #000000;
+	border: none;
+}
+
+
+/*Regular Submit Button*/
+button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, button:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active {
+  background: #0c715d;
+	border: none;
+	padding: none;
+	transition: all .2s ease-in-out;
+}
+
+/*Link color*/
+a {
+    color: #0c715d;
+}
+a:visited {
+	color: blue;
+}
+a:hover{
+	color: inherit;
+	text-decoration: underline;
+}
+a:focus, a:active {
+		color: #437aad;
+	  text-decoration: underline;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+/*Widget area link color*/
+.widget a:hover {
+	color: inherit;
+}
+
+/*Menu Colors*/
+.current-menu-item a:hover, .current-menu-item a:focus,
+.current-menu-item a:active
+{
+    color: #fff !important;
+}
+
+.main-navigation a, .main-navigation a:visited, .main-navigation a:hover, .main-navigation a:active{
+	color: #fff !important;
+}
+
+/*Seperators between the menu items*/
+.main-navigation li:before {
+    content: "|";
+    color: #868686;
+}
+
+/*Block Quote color*/
+blockquote {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+/*Main site title and descripton*/
+.site-title a, .site-title a:visited, .site-title a:hover, .site-title a:focus, .site-title a:active .site-description {
+    color: #ffffff !important;
+}
+
+/*The Pipe symbol in the footer*/
+.site-info a, .site-info .sep {
+    color: #b9b9b9;
+}
+
+/*Footer color*/
+.site-footer {
+    background: #1d1d1d;
+    color: #b9b9b9;
+}
+
+.site-footer a {
+	color: #b9b9b9 !important;
+}
+
+.entry-tags a, .entry-tags a:focus, .entry-tags a:active{
+	color: white;
+}
+
+.entry-tags a:hover{
+	color: #000000 !important;
+	text-decoration: none !important;
+}
