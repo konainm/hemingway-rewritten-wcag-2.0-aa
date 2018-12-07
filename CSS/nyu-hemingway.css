@@ -19,7 +19,7 @@
 /*Skip link background color*/
 .skip-link.screen-reader-text
 {
-	background-color: black;
+	background-color: #1d1d1d !important;
 }
 
 /*Comment Box Meta data*/
@@ -29,7 +29,7 @@
 
 /*Search button color*/
 .widget_search .search-submit {
-   background: #000000;
+   background: #1d1d1d;
 	border: none;
 }
 
@@ -118,4 +118,11 @@ blockquote {
 .entry-tags a:hover{
 	color: #000000 !important;
 	text-decoration: none !important;
+}
+
+/*Menu Hover CSS*/
+.main-navigation a:focus {
+  outline: none;
+	background-color:#0c715d;
+	padding-left: 22px;
 }

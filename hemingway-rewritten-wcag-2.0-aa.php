@@ -4,7 +4,7 @@ Plugin Name: Hemingway Rewritten Accessibility Patch
 Plugin URI: https://github.com/KonainM/hemingway-rewritten-wcag-2.0-aa.git
 Description: Makes the Hemingway Rewritten theme compliant with the WCAG 2.0 AA stadards of web accessibility.
 Author: Konain Mukadam
-Version: 0.1
+Version: 1.0
 Author URI: https://github.com/KonainM/
 */
 
