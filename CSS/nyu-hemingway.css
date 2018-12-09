@@ -110,6 +110,18 @@ blockquote {
 	color: #b9b9b9 !important;
 }
 
+/*Footer Button (SearchWidget)*/
+
+.site-footer button, .site-footer input[type="button"], .site-footer input[type="reset"], .site-footer input[type="submit"] {
+    background: #1d1d1d;
+    border: 1px solid;
+}
+
+.site-footer button:hover, .site-footer input[type="button"]:hover, .site-footer input[type="reset"]:hover, .site-footer input[type="submit"]:hover, .site-footer button:active, .site-footer input[type="button"]:active, .site-footer input[type="reset"]:active, .site-footer input[type="submit"]:active, .site-footer button:focus, .site-footer input[type="button"]:focus, .site-footer input[type="reset"]:focus, .site-footer input[type="submit"]:focus {
+	border: 1px solid white;
+	background: #0c715d;
+}
+
 /*Tag icons on posts*/
 .entry-tags a, .entry-tags a:focus, .entry-tags a:active{
 	color: white;
