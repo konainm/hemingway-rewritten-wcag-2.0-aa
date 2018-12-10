@@ -8,6 +8,7 @@ Version: 1.0
 Author URI: https://github.com/KonainM/
 */
 
+/*logic to enable the function only if Hemingway Rewritten is active*/
 function menu_fix()
 {
 	$theme_name = wp_get_theme();
@@ -20,6 +21,7 @@ function menu_fix()
 	}
 }
 
+/*logic to enable to the css only if Hemingway Rewritten is active*/
 function css_fix()
 {
 	$theme_name = wp_get_theme();
@@ -31,4 +33,5 @@ function css_fix()
 }
 
 add_action('wp_enqueue_scripts', 'menu_fix');
-add_action( 'wp_print_styles', 'css_fix', 99 );
+add_action( 'wp_print_styles', 'css_fix', 99 ); //Used the highest priority to surpass theme CSS conflicts
+?>
