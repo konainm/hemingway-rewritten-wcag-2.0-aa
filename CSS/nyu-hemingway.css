@@ -138,3 +138,8 @@ blockquote {
 	background-color:#0c715d;
 	padding-left: 22px;
 }
+
+/*Caption text color fix*/
+.wp-caption-text {
+color: #6d6d6d;
+}
